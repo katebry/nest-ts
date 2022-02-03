@@ -1,6 +1,5 @@
 import { Module, MiddlewareConsumer, RequestMethod } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-
 import { AuthenticationMiddleware } from './common/authentication.middleware';
 import { ItemsController } from './items/items.controller';
 import { ShoppingCartController } from './shopping-cart/shopping-cart.controller';
