@@ -7,9 +7,7 @@ import { ShoppingCartController } from './shopping-cart/shopping-cart.controller
 import { ItemsService } from './items/items.service';
 
 @Module({
-  imports: [ConfigModule.forRoot({
-    isGlobal: true,
-  })],
+  imports: [ConfigModule.forRoot()],
   controllers: [ItemsController, ShoppingCartController],
   providers: [ItemsService],
 })
