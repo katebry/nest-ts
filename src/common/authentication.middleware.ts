@@ -28,5 +28,3 @@ export class AuthenticationMiddleware implements NestMiddleware {
         });
     };
 }
-http://localhost:4200/login?code=${CODE}&state=${SOME_STATE}
-http://localhost:4200/login?code=bzpGYo6RLgdDJY2Y&state=hKFo2SBkakxZRmMxYTBzNnk0TWh3d2tNYmViNmZUZnhDUHFRN6FupWxvZ2luo3RpZNkgSWw0RDNvbUlrdmJRdlZfTmpXWUtYQmdScjRkaGJKTDGjY2lk2SBhT3ZwNU1ITjlhZGhUUXB2QXFERUFTNFdWdTdwcTV2Tg
